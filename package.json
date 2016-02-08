@@ -1,0 +1,19 @@
+{
+  "name": "mail-template-generator",
+  "version": "1.0.0",
+  "description": "Generate mail template",
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "clean": "gulp clean",
+    "default": "gulp default"
+  },
+  "author": "Alxander Stepanenko",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-inline-css": "^3.0.1"
+  }
+}
