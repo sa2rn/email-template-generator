@@ -9,7 +9,7 @@ var conf = {
     dist: './dist/'
 };
 
-gulp.task('build', function(){
+gulp.task('build', function() {
     return gulp.src(conf.html)
         .pipe(inlineCss())
         .pipe(gulp.dest(conf.dist))
@@ -17,7 +17,7 @@ gulp.task('build', function(){
     ;
 });
 
-gulp.task('clean', function(){
+gulp.task('clean', function() {
     del(conf.dist);
 });
 

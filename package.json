@@ -1,7 +1,7 @@
 {
-  "name": "mail-template-generator",
+  "name": "email-template-generator",
   "version": "1.0.0",
-  "description": "Generate mail template",
+  "description": "Generate email template",
   "scripts": {
     "build": "gulp build",
     "serve": "gulp serve",
