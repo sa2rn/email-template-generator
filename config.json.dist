@@ -1,0 +1,21 @@
+{
+  "html": "./src/*.html",
+  "css": "./src/*.css",
+  "dist": "./dist/",
+  "smtp": {
+    "host": "smtp.mail.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "your@mail.com",
+      "pass": "password"
+    },
+    "tls": {
+      "rejectUnauthorized": false
+    }
+  },
+  "email": {
+    "from": "your@mail.com",
+    "to": "sendto@mail.com"
+  }
+}
