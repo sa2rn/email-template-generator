@@ -2,8 +2,9 @@
 
 ## Installation
 1. Install [node.js](https://nodejs.org/en/)
-2. [Download archive](https://github.com/sa2rn/email-template-generator/archive/master.zip). And extract it.
-3. Run `npm install`
+2. Install [gulp-cli](http://gulpjs.com/): `sudo npm install -g gulp-cli`
+3. [Download archive](https://github.com/sa2rn/email-template-generator/archive/master.zip). And extract it.
+4. Run `npm install`
 
 ## Configure
 Copy config.json.dist to config.json and configure it.
