@@ -26,7 +26,7 @@ gulp.task('build', function() {
 });
 
 gulp.task('clean', function() {
-    del(conf.dist);
+    return del(conf.dist);
 });
 
 // array of template paths
@@ -38,7 +38,7 @@ var taskList = templates.map(function(file) {
 
     // create new task 4 template
     gulp.task('send:' + parsedFile.name, ['build'], function() {
-        sendTemplate(parsedFile.base);
+        return sendTemplate(parsedFile.base);
     });
 
     return parsedFile.name;
